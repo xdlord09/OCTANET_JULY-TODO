@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, rgb(209, 101, 178), rgb(101, 232, 230), rgb(244, 246, 149));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+header,form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(28, 23, 74);
+    margin-bottom:30px;
+    margin-top:10px ;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+}
+input{
+    padding: 0.6em;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color:rgb(179, 233, 247);
+}
+button{
+    padding: 0.6em;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    outline: none;
+    background-color:rgb(179, 233, 247);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lists{
+    margin: 0.5em;
+    background-color:rgb(179, 233, 247);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 7px;
+}
+.list-group{
+    list-style-type: none;
+    width: 35%;
+}
+.lists li{
+    flex:1;
+
+}
+.check{
+    text-decoration: line-through;
+}
+#search-input{
+    width: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.bx-search-alt{
+    
+}
+.expand{
+    background-color:rgb(179, 233, 247) ;
+    border-radius: 10rem;
+}
+.expand .but{
+    float: right;
+}
+
+.expand #search-input{
+    width: 10rem;
+ 
+    transition: 0.3s;
+}
+.remove{
+   display: none;
+}
